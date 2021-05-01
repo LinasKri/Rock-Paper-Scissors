@@ -90,7 +90,8 @@ const pamarskomu = (player) => {
         console.log('Lygiosios!!!');
     }
     
-
+if (player === 0) {
+    
     if (npc1 === 1 && npc2 === 3) {
         console.log('---------------');
         console.log('npc1 laimejo!!! 🏆');
@@ -119,9 +120,10 @@ const pamarskomu = (player) => {
         console.log('---------------');
         console.log('Lygiosios!!!');
     }
+}
 
     
 }
 
-pamarskomu(2);
+pamarskomu(0);
 
