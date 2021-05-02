@@ -26,7 +26,7 @@ const pamarskomu = (player) => {
             console.log("1 - ✊, 2 - ✋, 3 - ✌, 0 - pabaiga");
             break;
     }
-    if (player === 0 || player === '') {
+    if (player === 0) {
         
         switch(npc1){
             case 1:
@@ -90,7 +90,7 @@ const pamarskomu = (player) => {
         console.log('Lygiosios!!!');
     }
     
-if (player === 0) {
+if (player === 0 ) {
     
     if (npc1 === 1 && npc2 === 3) {
         console.log('---------------');
